@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T19:19:28 IST" name="Suite" finished-at="2024-12-09T19:19:45 IST" duration-ms="17833">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T19:19:28 IST" name="Test" finished-at="2024-12-09T19:19:45 IST" duration-ms="17833">
+      <class name="Test.HomePageTest">
+        <test-method is-config="true" signature="intisetup(java.lang.String)[pri:0, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:28 IST" name="intisetup" finished-at="2024-12-09T19:19:33 IST" duration-ms="5203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intisetup -->
+        <test-method is-config="true" signature="launchURL(java.lang.String)[pri:0, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:33 IST" name="launchURL" finished-at="2024-12-09T19:19:39 IST" duration-ms="5673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://groww.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="UrlTest()[pri:1, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:39 IST" name="UrlTest" finished-at="2024-12-09T19:19:39 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlTest -->
+        <test-method signature="logoTest()[pri:2, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:39 IST" name="logoTest" finished-at="2024-12-09T19:19:41 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method signature="PageHeaderTest()[pri:3, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:41 IST" name="PageHeaderTest" finished-at="2024-12-09T19:19:42 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageHeaderTest -->
+        <test-method signature="chaintest()[pri:4, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:42 IST" name="chaintest" finished-at="2024-12-09T19:19:42 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chaintest -->
+        <test-method signature="loginoptionbutton()[pri:5, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:42 IST" name="loginoptionbutton" finished-at="2024-12-09T19:19:42 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginoptionbutton -->
+        <test-method is-config="true" signature="ClaoseBrowser()[pri:0, instance:Test.HomePageTest@742ff096]" started-at="2024-12-09T19:19:42 IST" name="ClaoseBrowser" finished-at="2024-12-09T19:19:45 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClaoseBrowser -->
+      </class> <!-- Test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

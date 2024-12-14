@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chome"/>
+    <parameter name="url" value="https://groww.in/"/>
+    <classes>
+      <class name="Test.HomePageTest">
+        <methods>
+          <include name="UrlTest"/>
+          <include name="loginoptionbutton"/>
+          <include name="launchURL"/>
+          <include name="ClaoseBrowser"/>
+          <include name="intisetup"/>
+          <include name="logoTest"/>
+          <include name="PageHeaderTest"/>
+          <include name="chaintest"/>
+        </methods>
+      </class> <!-- Test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
